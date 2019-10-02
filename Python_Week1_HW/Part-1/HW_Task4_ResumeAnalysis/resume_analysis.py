@@ -104,8 +104,8 @@ for word in filtered_resume:
 #print(_word_count1)
 
 # Sort words by count and print the top 10
-top = Counter(_word_count1)
 top10 = top.most_common(10)
+top = Counter(_word_count1)
 
 #print("\nTop 10 words used in resume:\n")
 
